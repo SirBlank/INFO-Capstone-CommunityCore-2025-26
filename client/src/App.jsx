@@ -1,29 +1,18 @@
 import { useState } from 'react'
 import { Header } from './components/Header.jsx'
+import { Sidebar } from './components/Sidebar.jsx'
 
 function App() {
 
   return (
     <div class="app">
-      <aside class="sidebar">
-        <div className="logo">
-          <div>⚪</div>
-        </div>
-        <nav>
-          <a class="nav-item active">Programs</a>
-          <a class="nav-item">Users</a>
-          <a class="nav-item">Settings</a>
-        </nav>
-      </aside>
-
+      <Sidebar />
       <div class="main">
-        <header class="header">
-          ISCHOOL MENTORSHIP PROGRAM TRACKER
-        </header>
-
+        <Header />
         <section class="content">
           <p>Testing</p>
         </section>
+        {/* replace with content componnets later */}
       </div>
     </div>
   )
