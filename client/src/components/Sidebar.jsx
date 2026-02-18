@@ -10,18 +10,18 @@ export function Sidebar() {
                 </div>
             </div>
             <nav>
-                <div className="nav-item">
+                <NavLink className="nav-item">
                     <img src="/iSchoolWhite.png" className="logo-img" alt="iSchool icon"/>
-                    <NavLink className="nav-link">Programs</NavLink>
-                </div>
-                <div className="nav-item">
+                    <p className="nav-link">Programs</p>
+                </NavLink>
+                <NavLink className="nav-item">
                     <img src="/iSchoolWhite.png" className="logo-img" alt="iSchool icon"/>
-                    <NavLink className="nav-link">Users</NavLink>
-                </div>
-                <div className="nav-item">
+                    <p className="nav-link">Users</p>
+                </NavLink>
+                <NavLink className="nav-item">
                     <img src="/iSchoolWhite.png" className="logo-img" alt="iSchool icon"/>
-                    <NavLink className="nav-link">Settings</NavLink>
-                </div>
+                    <p className="nav-link">Settings</p>
+                </NavLink>
             </nav>
         </aside>
     )

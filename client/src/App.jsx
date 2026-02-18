@@ -10,7 +10,7 @@ function App() {
       <div class="main">
         <Header />
         <section class="content">
-          <p>Testing</p>
+          <p>This will be the dashboard for admins</p>
         </section>
         {/* replace with content componnets later */}
       </div>
