@@ -11,7 +11,7 @@
 }
 
 .sidebar {
-  width: 100px;
+  width: 90px;
   background: #1e1e1e;
   display: flex;
   flex-direction: column;
@@ -34,6 +34,7 @@ nav {
   justify-content: center;
   padding: 10px 0;
   width: 100%;
+  gap: 5px;
 }
 
 .nav-item:hover {
@@ -44,6 +45,7 @@ nav {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  font-size: 12px;
 }
 
 /* .nav-item.active {
@@ -80,7 +82,7 @@ nav {
 
 .logo-img {
   width: 60px;
-  height: 63px;
+  height: 60px;
 }
 
 .content {
